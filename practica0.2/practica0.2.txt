@@ -1,0 +1,2 @@
+En esta practica se muestra como salir de un programa en ensamblador 
+De acuerdo a la practica hay ciertos registros especiales que deben ser cargadoscon numeros especificos para hacer un llamado a sistema, en este caso al cargar 1 al registro %ebx, se le indica al kernel de linux que se salga del programa ejecutado actualmente, una parte importante del programa es "int $0x80" que despierta el kernel para ejecutar la instruccion de salida (movl $0, %ebx)  
