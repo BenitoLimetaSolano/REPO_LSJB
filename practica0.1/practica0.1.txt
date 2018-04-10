@@ -1,0 +1,8 @@
+En esta primera practica de ve el concepto de la estructura de los programas en 
+lenguaje ensamblador, primero que nada los programas se crean en secciones,
+ mediante la directiva .section. 
+Combinar dos archivos objeto en un solo archivo ejecutable de tal manera
+ que las secciones no tengan direcciones que se traslapen es el trabajo del enlazador.
+Esto es lo que se hizo en la practica, se combinaron a1.s y a2.s mediante el enlazador. 
+Para poder combinar los programas se tiene que realizar un linker script.
+
